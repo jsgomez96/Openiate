@@ -45,9 +45,9 @@ class _UiSettings(BaseSettings):
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
     chat_title: str = "Empieza"
-    chat_description: str = "This chatbot is configured to answer your questions"
+    chat_description: str = "This is configured to answer your questions"
     favicon: str = "/favicon.ico"
-    show_share_button: bool = True
+    show_share_button: bool = False
     show_chat_history_button: bool = True
 
 
