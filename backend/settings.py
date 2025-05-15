@@ -41,7 +41,7 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "Azure"
+    title: str = "Azre"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
     chat_title: str = "Empieza"
